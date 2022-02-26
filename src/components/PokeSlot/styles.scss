@@ -1,0 +1,31 @@
+.pokeslot--main{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    box-shadow: 0 0 7px whitesmoke;
+    transition-duration: 0.2s;
+    padding: 0px 10px 0px 10px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+}
+
+.pokeslot--number, .pokeslot--main{
+    text-align: start;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.pokeslot--number{
+    font-size: 20px;
+}
